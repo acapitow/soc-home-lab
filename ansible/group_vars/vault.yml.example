@@ -4,7 +4,7 @@
 #   cp ansible/group_vars/vault.yml.example ansible/group_vars/vault.yml
 # Optionnel : chiffrer avec `ansible-vault encrypt ansible/group_vars/vault.yml`
 #
-# ⚠️ Mots de passe VOLONTAIREMENT FAIBLES et FICTIFS : environnement jetable,
+# Mots de passe VOLONTAIREMENT FAIBLES et FICTIFS : environnement jetable,
 #    isolé, sans accès Internet. NE JAMAIS réutiliser ailleurs.
 #    vault.yml est ignoré par git (.gitignore).
 # =============================================================================

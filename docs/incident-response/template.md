@@ -2,7 +2,7 @@
 
 > Modèle réutilisable (structure SANS PICERL). Copier ce fichier, le renommer
 > `IR-XXX-<sujet>.md`, et remplir les champs entre crochets `[...]`.
-> Les sections marquées 🧩 sont à compléter avec les **preuves réelles** après
+> Les sections **Preuves** sont à compléter avec les **preuves réelles** après
 > exécution du scénario (captures du dashboard, export `results/alerts/…`).
 
 ---
@@ -35,7 +35,7 @@ quel moyen, et la réponse apportée.]
 - **Date/heure** : [première et dernière occurrence]
 - **Source de l'attaque** : [IP, hôte, compte]
 - **Cible** : [hôte, service, compte]
-- 🧩 **Preuves** :
+- **Preuves** :
   - Journaux : [extraits — Event IDs, lignes auth.log]
   - Export des alertes : [`results/alerts/…json`]
   - Capture du dashboard : [`results/…png`]

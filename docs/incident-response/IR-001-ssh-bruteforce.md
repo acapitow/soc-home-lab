@@ -1,7 +1,8 @@
 # Rapport d'incident — IR-001 : Brute force SSH sur SRV01
 
-> Structure SANS PICERL. Les sections 🧩 sont à compléter avec les preuves réelles
-> (export `results/alerts/…` + captures du dashboard) après `./attack.sh --execute`.
+> Structure SANS PICERL. Les sections « Preuves à insérer » sont à compléter avec les
+> preuves réelles (export `results/alerts/…` + captures du dashboard) après
+> `./attack.sh --execute`.
 
 ---
 
@@ -36,7 +37,7 @@ en moins de 60 s (règle `100101`). Le scénario vérifie aussi l'escalade criti
 - **Source** : `10.20.0.50` (ATTACK01). **Cible** : `labadmin@SRV01`, SSH/22.
 - **Outil présumé** : `hydra` (connexions parallèles rapides, nombreux ports source).
 
-🧩 **Preuves à insérer** :
+**Preuves à insérer** :
 - Export : `results/alerts/ssh-bruteforce.json` (via `export_alerts.py --rule 100101,100102`)
 - Capture dashboard : `results/img/ssh-bruteforce-alert.png`
 - Extrait `auth.log` (voir `scenarios/01-ssh-bruteforce/expected-logs.md`).

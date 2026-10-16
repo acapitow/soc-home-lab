@@ -1,7 +1,7 @@
 # Rapport d'incident — IR-002 : Password spraying Active Directory
 
-> Structure SANS PICERL. Sections 🧩 à compléter avec les preuves réelles après
-> `./attack.sh --execute`.
+> Structure SANS PICERL. Sections « Preuves à insérer » à compléter avec
+> les preuves réelles après `./attack.sh --execute`.
 
 ---
 
@@ -38,7 +38,7 @@ corrélé ≥ 5 comptes distincts en échec depuis la même IP en 120 s (règle 
 - **Event IDs** : `4625` (SubStatus `0xC000006A`), éventuels `4771` (code `0x18`).
 - **Absence de 4740** : cohérent avec un spraying (sous le seuil de verrouillage).
 
-🧩 **Preuves à insérer** :
+**Preuves à insérer** :
 - Export : `results/alerts/password-spraying.json` (`export_alerts.py --rule 100201,100203`)
 - Capture dashboard : `results/img/password-spraying-alert.png`
 - Tableau des 4625 (voir `scenarios/02-password-spraying/expected-logs.md`).

@@ -9,7 +9,7 @@ logique de corrélation que les règles Wazuh (IDs 100100+) et Sigma de ce dép�
 affiche les alertes déclenchées. Objectif : démontrer que les détections fonctionnent
 SANS avoir à déployer les VM ni installer un SIEM — il suffit de Python 3.
 
-⚠️ Ce n'est PAS un vrai SIEM : c'est une simulation pédagogique de la logique de
+Ce n'est PAS un vrai SIEM : c'est une simulation pédagogique de la logique de
 corrélation (seuils, fenêtres, champs). Les sorties sont étiquetées « simulation ».
 
 Usage :

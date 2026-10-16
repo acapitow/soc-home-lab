@@ -1,7 +1,7 @@
 # Rapport d'incident — IR-003 : Scan réseau (Nmap) du sous-réseau
 
-> Structure SANS PICERL. Sections 🧩 à compléter avec les preuves réelles après
-> `./attack.sh --execute` (ou `ws01-portsweep.ps1 -Execute`).
+> Structure SANS PICERL. Sections « Preuves à insérer » à compléter avec
+> les preuves réelles après `./attack.sh --execute` (ou `ws01-portsweep.ps1 -Execute`).
 
 ---
 
@@ -37,7 +37,7 @@ préalable à une attaque.
 - **Source** : hôte lançant le scan (ex. WS01 `10.20.0.20`, outil `nmap.exe`/`powershell.exe`).
 - **Cibles** : DC01, SRV01, SIEM01 (ports 22, 80, 88, 135, 389, 445, 3389, 5985…).
 
-🧩 **Preuves à insérer** :
+**Preuves à insérer** :
 - Export : `results/alerts/nmap-scan.json` (`export_alerts.py --rule 100301`)
 - Capture dashboard : `results/img/nmap-scan-alert.png`
 - Résumé Sysmon EID 3 (voir `scenarios/03-nmap-scan/expected-logs.md`).

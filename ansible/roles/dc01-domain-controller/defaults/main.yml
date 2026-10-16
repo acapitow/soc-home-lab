@@ -1,6 +1,6 @@
 ---
 # Valeurs de repli si vault.yml n'est pas fourni (le labo tourne quand même).
-# ⚠️ Fictif / jetable / isolé — ne pas réutiliser.
+# Fictif / jetable / isolé — ne pas réutiliser.
 default_domain_users:
   - { sam: "jdupont",    name: "Jean Dupont",    password: "Printemps2026!", ou: "Users",    groups: ["Comptabilite"] }
   - { sam: "amartin",    name: "Alice Martin",   password: "C0mpt@-9f3Xz!",  ou: "Users",    groups: ["Comptabilite"] }

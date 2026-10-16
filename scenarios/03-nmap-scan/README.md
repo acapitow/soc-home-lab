@@ -33,7 +33,7 @@ nmap -sS -T4 -Pn --top-ports 100 --open 10.20.0.0/24
 powershell -ExecutionPolicy Bypass -File .\ws01-portsweep.ps1 -Execute
 ```
 
-> 💡 Lancer le scan depuis **WS01** (équipé de Sysmon) rend le balayage très visible :
+> Lancer le scan depuis **WS01** (équipé de Sysmon) rend le balayage très visible :
 > le processus (`nmap.exe` ou `powershell.exe`) génère une rafale de **Sysmon EventID 3**
 > vers de nombreux ports, ce que détecte la règle Wazuh `100301`.
 

@@ -1,4 +1,4 @@
-# SOC Home Lab 🛡️
+# SOC Home Lab
 
 > Laboratoire SOC *Blue Team* entièrement déployable en **Infrastructure as Code**.
 > Une seule commande crée les machines virtuelles, les configure, installe le SIEM
@@ -16,7 +16,7 @@ cadre du MSc Cybersécurité (Epitech), en vue d'une alternance d'analyste SOC.
 
 ---
 
-## ⚠️ Avertissement — usage autorisé uniquement
+## Avertissement — usage autorisé uniquement
 
 Ce dépôt est un **laboratoire pédagogique défensif**. Les scripts dits « d'attaque »
 servent **exclusivement** à générer de la télémétrie pour tester les détections.
@@ -32,7 +32,7 @@ servent **exclusivement** à générer de la télémétrie pour tester les déte
 
 ---
 
-## 🗺️ Architecture
+## Architecture
 
 Réseau interne VirtualBox `soc-lab` — `10.20.0.0/24` — isolé d'Internet.
 
@@ -73,7 +73,7 @@ Réseau interne VirtualBox `soc-lab` — `10.20.0.0/24` — isolé d'Internet.
 
 ---
 
-## 🧰 Prérequis (sur votre machine hôte)
+## Prérequis (sur votre machine hôte)
 
 Ces outils ne sont **pas** installés automatiquement — installez-les une fois sur l'hôte :
 
@@ -94,7 +94,7 @@ profil *light* → hôte avec **16 Go** (voir plus bas).
 
 ---
 
-## 🚀 Démarrage rapide (une seule commande)
+## Démarrage rapide (une seule commande)
 
 ```bash
 git clone https://github.com/acapitow/premier-projet-cyber.git
@@ -126,7 +126,7 @@ vagrant destroy -f # supprime tout
 
 ---
 
-## 💡 Profil léger (PC à 16 Go)
+## Profil léger (PC à 16 Go)
 
 Activé par `LAB_PROFILE=light`. Compromis assumés et documentés :
 
@@ -140,7 +140,7 @@ Détails et autres leviers (désactiver WS01, réduire l'indexer Wazuh) :
 
 ---
 
-## 🔎 Détection & scénarios
+## Détection & scénarios
 
 Chaque scénario fournit : le script d'attaque *bridé labo*, la technique **MITRE ATT&CK**,
 les **journaux attendus** (Event IDs Windows / Sysmon / `auth.log`), une **règle Wazuh**,
@@ -161,7 +161,7 @@ cd scenarios
 ./run_all_scenarios.sh --simulate # détection HORS-LIGNE : prouve que les règles se déclenchent, SANS VM
 ```
 
-> 💡 **Sans infrastructure ?** `--simulate` (ou `python3 scripts/simulate_detection.py`)
+> **Sans infrastructure ?** `--simulate` (ou `python3 scripts/simulate_detection.py`)
 > rejoue une trace d'attaque réaliste et applique **la même logique de corrélation** que
 > les règles Wazuh/Sigma — avec **Python seul**, sans VirtualBox ni SIEM. Pratique sous
 > WSL ou pour une démo rapide. Les alertes produites vont dans `results/alerts/simulated-*.json`.
@@ -170,7 +170,7 @@ Couverture MITRE complète : [`docs/mitre-attack-matrix.md`](docs/mitre-attack-m
 
 ---
 
-## 📁 Structure du dépôt
+## Structure du dépôt
 
 ```
 soc-home-lab/
@@ -189,7 +189,7 @@ soc-home-lab/
 
 ---
 
-## 📊 État de validation des résultats
+## État de validation des résultats
 
 > **Transparence.** Ce dépôt a été construit et versionné de façon reproductible.
 > Le dossier [`results/`](results/) contient des **sorties de référence** (journaux et
@@ -201,7 +201,7 @@ soc-home-lab/
 
 ---
 
-## 🙏 Crédits & licences
+## Crédits & licences
 
 Ce projet s'appuie sur des références reconnues de la communauté — merci à leurs auteurs.
 Voir [`NOTICE.md`](NOTICE.md) pour le détail des licences.
@@ -215,6 +215,6 @@ Voir [`NOTICE.md`](NOTICE.md) pour le détail des licences.
 Récupération locale de ces dépôts (exclus du dépôt via `.gitignore`) :
 `./scripts/fetch-references.sh`.
 
-## 📄 Licence
+## Licence
 
 Code de ce dépôt sous licence **MIT** — voir [`LICENSE`](LICENSE).

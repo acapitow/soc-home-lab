@@ -24,7 +24,7 @@
     creates: /var/ossec/bin/wazuh-control
   register: wazuh_install_run
   when: not wazuh_installed.stat.exists
-  # ⚠️ Étape longue (plusieurs minutes) : indexer OpenSearch + dashboard.
+  # Étape longue (plusieurs minutes) : indexer OpenSearch + dashboard.
 
 - name: "Récupérer le mot de passe admin du dashboard"
   ansible.builtin.shell: |

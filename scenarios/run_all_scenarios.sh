@@ -32,7 +32,7 @@ if [[ "$MODE" == "execute" ]]; then
   if ! timeout 2 bash -c "echo > /dev/tcp/${SIEM01_IP}/1514" 2>/dev/null; then
     warn "Le SIEM (${SIEM01_IP}:1514) ne répond pas : le labo n'est pas déployé ou injoignable."
     warn "Les scénarios réels échoueront (pas de cible/outils)."
-    warn "➜ Pour voir la détection fonctionner SANS VM : ./run_all_scenarios.sh --simulate"
+    warn "Pour voir la détection fonctionner SANS VM : ./run_all_scenarios.sh --simulate"
     echo
   fi
 fi
@@ -51,7 +51,7 @@ SCENARIOS=(
 
 for s in "${SCENARIOS[@]}"; do
   echo "═══════════════════════════════════════════════════════════════"
-  echo "▶ Scénario : $s"
+  echo "Scénario : $s"
   echo "═══════════════════════════════════════════════════════════════"
   bash "${SCRIPT_DIR}/${s}" "$MODE_FLAG"
   echo

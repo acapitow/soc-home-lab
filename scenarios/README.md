@@ -1,6 +1,6 @@
 # Scénarios d'attaque & de détection
 
-> ⚠️ **Usage autorisé uniquement.** Ces scripts ne visent que les VM du
+> **Usage autorisé uniquement.** Ces scripts ne visent que les VM du
 > **laboratoire isolé** (`10.20.0.0/24`). Le garde-fou `lib/lab_guard.sh` refuse
 > toute autre cible, et tout tourne en **mode simulation (`--check`) par défaut**.
 > N'exécutez jamais ceci contre un système sans autorisation écrite.

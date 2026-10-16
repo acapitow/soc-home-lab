@@ -93,7 +93,7 @@ Définis dans `ansible/group_vars/vault.yml.example` (à copier en `vault.yml`).
 | `LAB\\svc_backup`  | Compte de service  | Cible password spraying   |
 | `labadmin`        | Admin local SRV01  | Cible SSH brute force     |
 
-> ⚠️ Mots de passe **volontairement faibles** et **fictifs** : environnement jetable isolé.
+> Mots de passe **volontairement faibles** et **fictifs** : environnement jetable isolé.
 > Ne réutilisez jamais ces identifiants ailleurs.
 
 ## 7. Dépannage rapide

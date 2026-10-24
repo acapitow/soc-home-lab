@@ -34,7 +34,7 @@ Wazuh**, la **règle Sigma** équivalente, et un **rapport d'incident** (méthod
 • Penser « détection » : une attaque ne vaut que par le signal qu'elle laisse.
 
 Le projet est open source (avec un profil « léger » pour tourner sur 16 Go de RAM) :
-https://github.com/acapitow/premier-projet-cyber
+https://github.com/acapitow/soc-home-lab
 
 Je recherche une **alternance d'analyste SOC** — n'hésitez pas à me contacter ou à partager !
 Vos retours de pros de la détection sont les bienvenus.

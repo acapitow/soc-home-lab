@@ -97,8 +97,8 @@ profil *light* → hôte avec **16 Go** (voir plus bas).
 ## Démarrage rapide (une seule commande)
 
 ```bash
-git clone https://github.com/acapitow/premier-projet-cyber.git
-cd premier-projet-cyber        # (ou le dossier soc-home-lab selon votre organisation)
+git clone https://github.com/acapitow/soc-home-lab.git
+cd soc-home-lab
 
 # (optionnel) récupérer les dépôts de référence cités ci-dessous
 ./scripts/fetch-references.sh

@@ -7,7 +7,7 @@
 > **réponse à incident**.
 
 **Auteur : André Capito ([@acapitow](https://github.com/acapitow))** — projet réalisé dans le
-cadre du MSc Cybersécurité (Epitech), en vue d'une alternance d'analyste SOC.
+cadre de ma préparation au MSc Cybersécurité (Epitech), en vue d'une alternance d'analyste SOC.
 
 ![IaC](https://img.shields.io/badge/IaC-Vagrant%20%2B%20Ansible-1563FF)
 ![SIEM](https://img.shields.io/badge/SIEM-Wazuh-005792)
